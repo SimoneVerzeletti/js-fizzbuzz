@@ -6,12 +6,12 @@ for (let i = 1; i <= 100; i++) {
   x = i;
   //Scope per controllare se sono multipli di 3 e 5
   if (x % 3 === 0 && x % 5 === 0) {
-    console.log(x + " FizzBuzz");
+    console.log("FizzBuzz");
     //Scope per controllare se sono multipli di 3 o 5
   } else if (x % 3 === 0) {
-    console.log(x + " Fizz");
+    console.log("Fizz");
   } else if (x % 5 === 0) {
-    console.log(x + " Buzz");
+    console.log("Buzz");
   } else {
     console.log(x);
   }
